@@ -1,0 +1,12 @@
+{
+  "name": "footsense-footguard-pro",
+  "version": "1.0.0",
+  "description": "SmartSense FootGuard Pro — Firebase sensor simulator for hackathon demo",
+  "main": "firebase-sensor-simulator.js",
+  "scripts": {
+    "simulate": "node firebase-sensor-simulator.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.0.0"
+  }
+}
