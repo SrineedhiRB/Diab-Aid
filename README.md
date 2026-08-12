@@ -37,14 +37,13 @@ Low: 0-24%   Moderate: 25-49%   High: 50-74%   Critical: 75-100%
 ```
 This is grounded in a real clinical signal: sustained plantar pressure combined with localized temperature asymmetry >2°C is a documented precursor to diabetic foot ulceration. It's a weighted formula, not a trained ML model — say so plainly if asked. Framing it as "evidence-based risk scoring, ML model as the next iteration" is honest and still lands well with judges.
 
-## What's intentionally NOT built (mention as roadmap, not vaporware)
-- Multi-role auth (Admin/Nurse/Researcher) — single demo login only
+## Updates in progress ( vaporware)
 - Sarvam AI Tamil report generation
 - Telegram / SMS / voice-call notifications
 - Full patient CRUD, Appointments, Messages, Settings, Analytics suite
-- Real ESP32 hardware — this is software-only per your setup
+
 
 Keep a "Roadmap" slide in your pitch deck listing these — it shows scope awareness without costing build time.
 
-## Demo script (~90 seconds)
+##  script (~90 seconds)
 Login → Dashboard overview → select escalating patient → heatmap turns red on heel → risk engine shows rising % with explanation → AI summary streams in → alert fires in Alert Center. That single flow demonstrates IoT (simulated), real-time updates, AI risk modeling, and clinical decision support — the core claims of your pitch — without needing the other 80% of the original spec.
